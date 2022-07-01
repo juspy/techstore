@@ -1,0 +1,191 @@
+@media(max-width: 1999px) {
+    .main__goods-icons{
+        justify-content: center !important;
+    }
+}
+@media(max-width: 768px) {
+    .header__content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header__content-navbar{
+        overflow: hidden;
+        visibility: hidden;
+        transition: 0.5s;
+        height: 0;
+        margin: 20px 0 10px 0;
+
+    }
+    .header__content-list{
+        padding: 0;
+        justify-content: center;
+        transition: 0.5;
+        flex-wrap: wrap;
+    }
+    .header__content-link{
+        margin: 0 8px;
+    }
+    .header__button{
+        display: block;
+    }
+    .header__content-logo{
+        margin-top: 23px;
+    }
+    .main__distributions-card{
+        margin: 15px 0;
+    }
+    .main__home-logo-png {
+        max-width: 500px;
+        width: 100%;
+        padding-right: 50px;
+    }
+    .main__home-title-text {
+        font-size: 32px;
+    }
+    .footer__navbar{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__content-list{
+        margin-top: 20px;
+        padding: 0;
+    }
+    .main__about-description-descr{
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 30px;
+    }
+    .main__about-title{
+        font-size: 37px;
+        margin-bottom: 25px;
+    }
+    .main__distributions-text {
+    font-size: 26px;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    }
+    .main__partners-text{
+        font-size: 35px;
+    }
+    .form__sucsess{
+        max-width: 430px;
+        width: 100%;
+        height: 65px;
+    }
+    .form__sucsess-text{
+        max-width: 350px;
+        width: 100%;
+        font-size: 17px;
+    }
+    .form__sucsess-icon::before{
+        content: '\f00c';
+        font-size: 30px;
+        color: var(--blue);
+    }
+}
+@media(max-width: 767px) {
+    .main__card-img-image {
+        max-width: 200px;
+        width: 100%;
+    }
+    .main__distributions-card{
+        max-width: 200px;
+        width: 100%;
+    }
+}
+@media(max-width: 529px) {
+    .main__home-logo-png {
+        max-width: 350px;
+        width: 100%;
+        padding-right: 50px;
+    }
+    .footer__content-list{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__content-link{
+        margin: 0 7px;
+    }
+
+}
+@media(max-width: 480px) {
+    .main__about-description-descr{
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 30px;
+    }
+    .main__card-img-image {
+        max-width: 185px;
+        width: 100%;
+    }
+    .main__distributions-card{
+        max-width: 185px;
+        width: 100%;
+    }
+    .form__sucsess{
+        max-width: 340px;
+        width: 100%;
+        height: 65px;
+    }
+    .form__sucsess-text{
+        max-width: 290px;
+        width: 100%;
+        font-size: 15px;
+    }
+    .form__sucsess-icon::before{
+        content: '\f00c';
+        font-size: 30px;
+        color: var(--blue);
+    }
+    .main__home-logo-png {
+        max-width: 300px;
+        width: 100%;
+        padding-right: 50px;
+        margin-left: 15px;
+    }
+    .main__home-title-text{
+        font-size: 22px;
+        margin-left: 15px;
+        padding-top: 40px;
+    }
+    .main__partners-text{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .main__partners-descr-descr{
+        font-size: 17px;
+    }
+    .main__distributions-text {
+        font-size: 22px;
+        padding-top: 25px;
+        margin-bottom: 0px;
+    }
+}
+@media(max-width: 393px) {
+    .main__card-img-image {
+        max-width: 160px;
+        width: 100%;
+    }
+    .main__distributions-card{
+        max-width: 160px;
+        width: 100%;
+    }
+    .main__partners-form input:nth-of-type(4){
+        height: 40px;
+        max-width: 150px;
+        width: 100%;
+    }
+}
+@media(max-width: 380px) {
+    .footer__adress-title,
+    .footer__contacts-numtitle,
+    .footer__contacts-emailtitle{
+        font-size: 17px;
+    }
+
+    .footer__adress-adress,
+    .footer__contacts-num,
+    .footer__contacts-email{
+        font-size: 15px;
+    }
+}
